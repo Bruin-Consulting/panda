@@ -3,3 +3,5 @@ node_modules
 credentials.json
 .env
 client/dist
+.DS_Store
+service_account_credentials.json
