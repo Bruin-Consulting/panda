@@ -3,9 +3,6 @@ node_modules
 credentials.json
 .env
 client/dist
-<<<<<<< HEAD
 coverage
-=======
 .DS_Store
 service_account_credentials.json
->>>>>>> 0d0efc35abff4d3bed7775d6dfc584c2cd6fcbe8
