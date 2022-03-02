@@ -4,6 +4,8 @@ const env = require('dotenv').config();
 const fs = require('fs');
 const { google } = require('googleapis');
 
+//db methods
+const db = require('../database/utils.js');
 const { getAuthToken, getSpreadSheetValues } = require('./googleSheetsServices.js');
 
 const app = express();
