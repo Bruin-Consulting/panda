@@ -9,12 +9,8 @@ class MainPanel extends React.Component {
 
   render() {
     return(<>
-      <section id='main-panel'>
-        <img src={bruinLogo} alt='Bruin Consulting'></img>
-        <div>
-          &copy; 2022 <span className='bruin-text'>Bruin Consulting</span>. All Rights Reserved.
-        </div>
-      </section>
+      
+
     </>)
   }
 }
