@@ -4,8 +4,7 @@
   "description": "Bruin Consulting website for clients and prospective members.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --collect-coverage",
+    "test": "jest --collect-coverage",
     "client": "webpack --mode development --watch",
     "server": "npx nodemon ./server/index.js"
   },
@@ -46,5 +45,10 @@
     "webpack": "^5.67.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+         "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/mocks/file.js"
+    }
   }
 }
