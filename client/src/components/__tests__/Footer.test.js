@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Footer from '../client/src/components/Footer.jsx';
+import Footer from '../Footer.jsx';
 
 describe('footer component', () => {
   test('it should create a section with id=footer', () => {
